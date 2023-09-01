@@ -5,7 +5,7 @@ int main() {
 
 	std::cout << "Hello my name is Pascal!!\n";
 
-    std::cout << "Hello I'm Jae!\n";
+    std::cout << "Hello I'm Jae Hyeok!\n";
 
     std::cout << "Hello I'm Hoon!\n";
 
@@ -14,6 +14,8 @@ int main() {
     std::<<"Merge testing 1";
 
     std::cout<< "This is a practice";
+
+	std::cout << "Hi I'm Migyeongjeong!!"
 
 	return 0;
 }
