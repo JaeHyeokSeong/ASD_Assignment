@@ -7,5 +7,6 @@ int main() {
 
     std::cout << "Hello I'm Jae!\n";
 
+    std::cout << "Hello I'm Hoon!\n";
 	return 0;
 }
