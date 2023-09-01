@@ -12,5 +12,7 @@ int main() {
     std::cout <<"Hello Aljonn";
 
     std::cout<< "This is a practice";
+
+	std::cout << "Hi I'm Migyeongjeong!!"
 	return 0;
 }
