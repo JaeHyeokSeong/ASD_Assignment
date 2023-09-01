@@ -7,6 +7,6 @@ int main() {
 
     std::cout << "Hello I'm Jae!\n";
 
->>>>>>> origin/master
+    std::cout << "Hello I'm Hoon!\n";
 	return 0;
 }
