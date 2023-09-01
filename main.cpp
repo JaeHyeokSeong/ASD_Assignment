@@ -12,5 +12,8 @@ int main() {
     std::cout <<"Hello Aljonn";
 
     std::<<"Merge testing 1";
+
+    std::cout<< "This is a practice";
+
 	return 0;
 }
