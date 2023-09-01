@@ -10,5 +10,7 @@ int main() {
     std::cout << "Hello I'm Hoon!\n";
 
     std::cout <<"Hello Aljonn";
+
+    std::cout<< "This is a practice";
 	return 0;
 }
