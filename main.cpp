@@ -2,6 +2,11 @@
 
 int main() {
 	std::cout << "Hello World\n";
-	std::cout << "Upade";
+
+	std::cout << "Hello my name is Pascal!!\n";
+
+    std::cout << "Hello I'm Jae!\n";
+
+>>>>>>> origin/master
 	return 0;
 }
