@@ -10,6 +10,7 @@ trigger:
 - jae_feature
 - sandy_feature
 - pascal_feature
+-
 pool:
   vmImage: ubuntu-latest
 
