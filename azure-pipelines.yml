@@ -20,9 +20,9 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-  targetFolder: '$(Build.ArtifactStagingDirectory)'
-
+    targetFolder: '$(Build.ArtifactStagingDirectory)'
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
+    publishLocation: 'Container'
