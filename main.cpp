@@ -17,5 +17,7 @@ int main() {
 
 	std::cout << "Hi I'm Migyeongjeong!!"
 
+    std::cout << "What is Pipelines?"
+
 	return 0;
 }
