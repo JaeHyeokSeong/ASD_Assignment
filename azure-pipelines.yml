@@ -19,5 +19,8 @@ steps:
   displayName: 'Run a multi-line script'
 
 - task: PublishBuildArtifacts@1
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    publishLocation: 'pipeline'
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
