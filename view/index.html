@@ -1,0 +1,78 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Property Management</title>-->
+<!--    <link rel="stylesheet" href="index.css">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <a href="add_property.html" target="_blank">Add New Property</a>-->
+<!--    <a href="update_property.html" target="_blank">Update Property</a>-->
+<!--    <a href="delete_property.html" target="_blank">Delete Property</a>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Management</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1>Property Management</h1>
+
+<!-- Property Input Form -->
+<form id="property-form">
+    <label for="property-name">Property Name:</label>
+    <input type="text" id="property-name" placeholder="Enter property name" required>
+    <label for="property-value">Property Value:</label>
+    <input type="text" id="property-value" placeholder="Enter property value" required>
+    <button type="button" onclick="addProperty()">Add Property</button>
+</form>
+
+<!-- Property Update Form -->
+<form id="update-property-form">
+    <label for="update-property">Select Property to Update:</label>
+    <select id="update-property" required>
+        <!-- Property options will be dynamically added here -->
+    </select>
+    <label for="new-property-value">New Property Value:</label>
+    <input type="text" id="new-property-value" placeholder="Enter new property value" required>
+    <button type="button" onclick="updateProperty()">Update Property</button>
+</form>
+
+<!-- Property Delete Form -->
+<form id="delete-property-form">
+    <label for="delete-property">Select Property to Delete:</label>
+    <select id="delete-property" required>
+        <!-- Property options will be dynamically added here -->
+    </select>
+    <button type="button" onclick="deleteProperty()">Delete Property</button>
+</form>
+
+<!-- Property List -->
+<h1>Property List</h1>
+<ul id="property-list">
+    <!-- Property items will be dynamically added here -->
+</ul>
+
+<!--&lt;!&ndash; Property List &ndash;&gt;-->
+<!--<h1>Property List</h1>-->
+<!--<table id="property-table">-->
+<!--    <thead>-->
+<!--    <tr>-->
+<!--        <th>Name</th>-->
+<!--        <th>Price</th>-->
+<!--    </tr>-->
+<!--    </thead>-->
+<!--    <tbody id="property-list">-->
+<!--    &lt;!&ndash; Property items will be dynamically added here &ndash;&gt;-->
+<!--    </tbody>-->
+<!--</table>-->
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+/*!*a {*!*/
+/*!*    text-decoration: none;*!*/
+/*!*    color: black;*!*/
+/*!*}*!*/
+
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    margin: 0;*/
+/*    padding: 20px;*/
+/*    background-color: #f0f0f0;*/
+/*}*/
+
+/*h1 {*/
+/*    text-align: center;*/
+/*    color: #333;*/
+/*}*/
+
+/*form {*/
+/*    margin-bottom: 20px;*/
+/*    background-color: #fff;*/
+/*    padding: 15px;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*label {*/
+/*    display: block;*/
+/*    margin-bottom: 5px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*input[type="text"] {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*button {*/
+/*    background-color: #007BFF;*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    padding: 10px 20px;*/
+/*    cursor: pointer;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*button:hover {*/
+/*    background-color: #0056b3;*/
+/*}*/
+
+/*ul {*/
+/*    list-style-type: none;*/
+/*    padding: 0;*/
+/*}*/
+
+/*li {*/
+/*    background-color: #fff;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    margin-bottom: 5px;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+/*select {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 3px;*/
+/*}*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Navigation Links */
+a {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007BFF;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #007BFF;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Property List Styles */
+#property-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#property-list li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+/* Property List Styles */
+#property-table {
+    width: 100%;
+    margin: 20px auto;
+    max-width: 600px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#property-table th,
+#property-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+#property-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+#property-table tbody tr {
+    background-color: #fff;
+}
+
+#property-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* Select Styles */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
