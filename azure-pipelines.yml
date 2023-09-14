@@ -5,11 +5,7 @@
 
 trigger:
 - master
-- aljonn_feature
-- hoon_feature
-- jae_feature
-- sandy_feature
-- pascal_feature
+- feature/*
 
 
 pool:
