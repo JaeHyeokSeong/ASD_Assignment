@@ -15,7 +15,10 @@ int main() {
 
     std::cout<< "This is a practice";
 
-	std::cout << "Hi I'm Migyeongjeong!!"
+	std::cout << "Hi I'm Migyeongjeong!!!!"
 
+    std::cout << "What is Pipelines?"
+
+    std::cout << "Let's see!!"
 	return 0;
 }
