@@ -71,12 +71,12 @@ button:hover {
 }
 
 .select-button {
-    background-color: #ffc107;
+    background-color: #28a745;
     margin-right: 10px;
 }
 
 .edit-button {
-    background-color: #28a745;
+    background-color: #ffc107;
 }
 
 .delete-button {
