@@ -89,7 +89,7 @@ h1 {
 }
 
 .password-reset {
-    font-size: 14px; /* Slightly smaller font size for password reset */
+    font-size: 15px; /* Slightly smaller font size for password reset */
     text-align: left; /* Align the password reset link to the left */
 }
 
