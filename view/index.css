@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: Helvetica, sans-serif;
+    background-color: #7AD7F0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ h1 {
 }
 
 .password-reset {
-    font-size: 12px; /* Slightly smaller font size for password reset */
+    font-size: 14px; /* Slightly smaller font size for password reset */
     text-align: left; /* Align the password reset link to the left */
 }
 
