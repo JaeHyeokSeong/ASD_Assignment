@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter",sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.property-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.property {
+    width: 100%;
+    margin: 20px 0;
+    padding: 25px;
+    background-color: #E8E8E8;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    vertical-align: top;
+}
+
+.property h2 {
+    margin: 10px 0;
+}
+
+.property button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.property button:hover {
+    background-color: #555;
+}
+
+#total-income {
+    text-align: center;
+    padding: 20px;
+    background-color: #F5F5F5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 400px;
+}
