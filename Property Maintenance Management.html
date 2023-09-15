@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complain Reporting</title>
+    <link rel="stylesheet" href="pmm.css">
+</head>
+<body>
+<header>
+    <h1>Complain Report</h1>
+</header>
+<main>
+    <form action="/report/complain" method="post">
+        <div class="form-group">
+            <label for="pname">Property Id:</label>
+            <input type="text" name="pname" id="pname" required>
+        </div>
+        <div class="form-group">
+            <label for="name">Reporter Name:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email"> Reporter Email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="issue">Complaint Issue :</label>
+            <input type="text" name="issue" id="issue" required>
+        </div>
+        <div class="form-group">
+            <label for="complain">Complain Description:</label>
+            <textarea name="complain" id="complain" rows="10" cols="30" required></textarea>
+        </div>
+
+
+            <p> Submit Reference File: </p>
+            <form action="/action_page.php">
+                <input type="file" id="myFile" name="filename">
+            </form>
+        <div class="center">
+        <button type="submit" ondblclick="myalert()">Submit</button>
+    </form>
+</main>
+</body>
+</html>
+<script>
+    function myalert() {
+        alert("Report Submitted");
+    }
+</script>
